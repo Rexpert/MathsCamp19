@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Key In Program"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="pnlGm3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="pnlGm4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="pnlGrp" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="pnlGm2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="pnlGm1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pnlGrp" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="pnlGm1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlGm2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlGm3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlGm4" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlGrp">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lbGrp1" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp2" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp3" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp4" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp5" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp6" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp7" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp8" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp9" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="lbGrp10" min="-2" pref="54" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbGrp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbGrp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbGrp1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 1"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 2"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp3">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 3"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp4">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 4"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp5">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 5"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp6">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 6"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp7">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 7"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp8">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 8"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp9">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 9"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGrp10">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Group 10"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlGm1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="tfGmb1Grp1" max="32767" attributes="0"/>
+                      <Component id="tglbutGm1Grp1" alignment="0" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm1Grp1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tglbutGm1Grp2" pref="60" max="32767" attributes="0"/>
+                          <Component id="tfGm1Grp2" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="tfGmb1Grp2" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tfGm1Grp3" max="32767" attributes="0"/>
+                          <Component id="tglbutGm1Grp3" pref="60" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="tfGmb1Grp3" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tglbutGm1Grp4" pref="60" max="32767" attributes="0"/>
+                          <Component id="tfGm1Grp4" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="tfGmb1Grp4" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm1Grp5" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm1Grp5" max="32767" attributes="0"/>
+                      <Component id="tfGmb1Grp5" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm1Grp6" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm1Grp6" max="32767" attributes="0"/>
+                      <Component id="tfGmb1Grp6" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm1Grp7" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm1Grp7" max="32767" attributes="0"/>
+                      <Component id="tfGmb1Grp7" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm1Grp8" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm1Grp8" max="32767" attributes="0"/>
+                      <Component id="tfGmb1Grp8" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm1Grp9" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm1Grp9" max="32767" attributes="0"/>
+                      <Component id="tfGmb1Grp9" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm1Grp10" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm1Grp10" max="32767" attributes="0"/>
+                      <Component id="tfGmb1Grp10" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tfGm1Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm1Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tfGmb1Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tglbutGm1Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tglbutGm1Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tfGmb1Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfGmb1Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm1Grp10">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1Grp10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb1Grp10">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlGm2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="tfGmb2Grp1" max="32767" attributes="0"/>
+                      <Component id="tglbutGm2Grp1" alignment="0" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp2" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp2" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp2" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp3" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp3" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp3" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp4" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp4" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp4" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp5" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp5" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp5" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp6" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp6" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp6" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp7" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp7" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp7" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp8" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp8" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp8" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp9" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp9" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp9" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm2Grp10" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm2Grp10" max="32767" attributes="0"/>
+                      <Component id="tfGmb2Grp10" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tfGm2Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm2Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tfGmb2Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb2Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tglbutGm2Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm2Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm2Grp10">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2Grp10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb2Grp10">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlGm3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="tfGmb3Grp1" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp1" alignment="0" pref="60" max="32767" attributes="0"/>
+                      <Component id="tglbutGm3Grp1" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tfGm3Grp2" pref="60" max="32767" attributes="0"/>
+                      <Component id="tglbutGm3Grp2" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp2" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tfGm3Grp3" pref="60" max="32767" attributes="0"/>
+                      <Component id="tglbutGm3Grp3" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp3" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm3Grp4" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp4" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp4" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm3Grp5" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp5" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp5" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm3Grp6" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp6" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp6" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm3Grp7" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp7" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp7" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm3Grp8" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp8" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp8" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm3Grp9" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp9" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp9" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm3Grp10" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm3Grp10" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb3Grp10" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tfGm3Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm3Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tfGmb3Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb3Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tglbutGm3Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm3Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm3Grp10">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3Grp10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb3Grp10">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlGm4">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="tfGmb4Grp1" max="32767" attributes="0"/>
+                      <Component id="tglbutGm4Grp1" alignment="0" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp1" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp2" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp2" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp2" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp3" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp3" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp3" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp4" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp4" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp4" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp5" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp5" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp5" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp6" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp6" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp6" alignment="0" pref="60" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tfGm4Grp7" pref="60" max="32767" attributes="0"/>
+                      <Component id="tglbutGm4Grp7" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp7" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp8" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp8" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp8" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp9" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp9" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp9" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="tglbutGm4Grp10" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGm4Grp10" pref="60" max="32767" attributes="0"/>
+                      <Component id="tfGmb4Grp10" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tfGm4Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGm4Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tfGmb4Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGmb4Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tglbutGm4Grp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglbutGm4Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGm4Grp10">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4Grp10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lose"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGmb4Grp10">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="tglbutGm4" pref="110" max="32767" attributes="0"/>
+                      <Component id="tglbutGm3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tglbutGm2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tglbutGm1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tglbutGm1" min="-2" pref="114" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  <Component id="tglbutGm2" min="-2" pref="114" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="tglbutGm3" min="-2" pref="114" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="tglbutGm4" min="-2" pref="114" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Game 1"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tglbutGm1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Game 2"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tglbutGm2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Game 3"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tglbutGm3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="tglbutGm4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Game 4"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tglbutGm4ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

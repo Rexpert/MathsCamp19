@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.*;
 import java.util.Arrays;
+import java.util.StringJoiner;
 
 /**
  *
@@ -19,13 +20,20 @@ public class MathsCamp {
     private ConstructJson json;
     private int[] curPos = new int[10];
     private Game[] game = new Game[4];
-    private final int[] x2Tiles = {10,30,50,66};
-    private final int[] x4Tiles = {20,40};
+    private final int[] x2Tiles = {20,40,66};
+    private final int[] x4Tiles = {30,50};
     
     
     public MathsCamp() throws IOException {
         String fileName = "game.json";
-        File file = new File(fileName);
+        String appdata = System.getenv("APPDATA");
+        StringJoiner joiner = new StringJoiner(File.separator);
+        String gameDataFile = joiner
+                               .add(appdata)
+                               .add("math-camp-19-boardgame")
+                               .add("game_data").add(fileName)
+                               .toString();
+        File file = new File(gameDataFile);
         if(file.exists()) {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String str = br.readLine();
@@ -89,13 +97,22 @@ public class MathsCamp {
     }
     
     public void toJson(String fileName) throws IOException {
-        File file = new File(fileName);
-        Gson gson = new GsonBuilder().create();
-        try(Writer writer = new FileWriter(file)) {
-            if(fileName.equals("game.json"))
-                gson.toJson(curPos, writer);
-            else if(fileName.equals("data.json")) {
-                json = new ConstructJson(game);
+        if(fileName.equals("game.json")) {
+            String appdata = System.getenv("APPDATA");
+            StringJoiner joiner = new StringJoiner(File.separator);
+            String gameDataFile = joiner
+                                   .add(appdata)
+                                   .add("math-camp-19-boardgame")
+                                   .add("game_data").add(fileName)
+                                   .toString();
+            try(PrintWriter printer = new PrintWriter(gameDataFile)) {
+                printer.print(Arrays.toString(curPos));
+            }
+        } else if(fileName.equals("data.json")) {
+            File file = new File(fileName);
+            Gson gson = new GsonBuilder().create();
+            json = new ConstructJson(game);
+            try(Writer writer = new FileWriter(file)) {
                 gson.toJson(json, writer);
             }
         }

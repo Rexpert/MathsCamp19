@@ -90,17 +90,15 @@ public class MathsCamp {
     
     public void toJson(String fileName) throws IOException {
         File file = new File(fileName);
-        FileWriter fw = new FileWriter(file);
-        PrintWriter pw = new PrintWriter(fw);
-        
-        if(fileName.equals("game.json"))
-            pw.print(Arrays.toString(curPos));
-        else if(fileName.equals("data.json")) {
-            json = new ConstructJson(game);
-            Gson gson = new GsonBuilder().create();
-            gson.toJson(json, pw);
+        Gson gson = new GsonBuilder().create();
+        try(Writer writer = new FileWriter(file)) {
+            if(fileName.equals("game.json"))
+                gson.toJson(curPos, writer);
+            else if(fileName.equals("data.json")) {
+                json = new ConstructJson(game);
+                gson.toJson(json, writer);
+            }
         }
-        fw.close();
     }
     
     private boolean checkInt(int[] array, int num) {

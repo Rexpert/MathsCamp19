@@ -20,8 +20,8 @@ public class MathsCamp {
     private ConstructJson json;
     private int[] curPos = new int[10];
     private Game[] game = new Game[4];
-    private final int[] x2Tiles = {20,40,66};
-    private final int[] x4Tiles = {30,50};
+    private final int[] x2Tiles = {25, 28, 32, 37, 41, 46, 50, 52, 55, 60, 63, 66, 69, 81, 87, 91, 93, 95, 104, 108, 114, 119, 124, 134, 146, 153, 161, 163, 176, 179, 181, 195, 197, 204, 207, 209, 211, 216, 227, 234, 241, 244, 246, 249, 254, 258, 261, 264, 267, 271, 276, 278};
+    private final int[] x4Tiles = {44, 116, 131, 138, 143, 167, 190, 202, 213, 214, 221, 229, 238};
     
     
     public MathsCamp() throws IOException {
@@ -46,7 +46,13 @@ public class MathsCamp {
         }
         
         fileName = "data.json";
-        file = new File(fileName);
+        joiner = new StringJoiner(File.separator);
+        gameDataFile = joiner
+                        .add(appdata)
+                        .add("math-camp-19-boardgame")
+                        .add("game_data").add(fileName)
+                        .toString();
+        file = new File(gameDataFile);
         if(file.exists()) {
             Gson gson = new Gson();
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -92,6 +98,8 @@ public class MathsCamp {
             }
             if(curPos[i] < 1) {
                 curPos[i] = 1;
+            } else if(curPos[i] > 300) {
+                curPos[i] = 300;
             }
         }
     }
@@ -109,7 +117,14 @@ public class MathsCamp {
                 printer.print(Arrays.toString(curPos));
             }
         } else if(fileName.equals("data.json")) {
-            File file = new File(fileName);
+            String appdata = System.getenv("APPDATA");
+            StringJoiner joiner = new StringJoiner(File.separator);
+            String gameDataFile = joiner
+                                   .add(appdata)
+                                   .add("math-camp-19-boardgame")
+                                   .add("game_data").add(fileName)
+                                   .toString();
+            File file = new File(gameDataFile);
             Gson gson = new GsonBuilder().create();
             json = new ConstructJson(game);
             try(Writer writer = new FileWriter(file)) {

@@ -246,43 +246,43 @@ public class GUI extends javax.swing.JFrame {
         setTitle("Key In Program");
 
         lbGrp1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp1.setText("Group 1");
+        lbGrp1.setText("水星");
         lbGrp1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp2.setText("Group 2");
+        lbGrp2.setText("金星");
         lbGrp2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp3.setText("Group 3");
+        lbGrp3.setText("地球");
         lbGrp3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp4.setText("Group 4");
+        lbGrp4.setText("火星");
         lbGrp4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp5.setText("Group 5");
+        lbGrp5.setText("木星");
         lbGrp5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp6.setText("Group 6");
+        lbGrp6.setText("土星");
         lbGrp6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp7.setText("Group 7");
+        lbGrp7.setText("天王星");
         lbGrp7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp8.setText("Group 8");
+        lbGrp8.setText("海王星");
         lbGrp8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp9.setText("Group 9");
+        lbGrp9.setText("太阳");
         lbGrp9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         lbGrp10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbGrp10.setText("Group 10");
+        lbGrp10.setText("月球");
         lbGrp10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         javax.swing.GroupLayout pnlGrpLayout = new javax.swing.GroupLayout(pnlGrp);
@@ -291,25 +291,25 @@ public class GUI extends javax.swing.JFrame {
             pnlGrpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlGrpLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lbGrp1, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp2, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp3, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp4, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp5, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp6, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp7, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp8, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp9, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(lbGrp10, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lbGrp1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp4, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp6, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp7, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp8, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp9, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lbGrp10, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlGrpLayout.setVerticalGroup(
@@ -453,18 +453,16 @@ public class GUI extends javax.swing.JFrame {
                             .addComponent(tglbutGm1Grp7)
                             .addComponent(tglbutGm1Grp8)
                             .addComponent(tglbutGm1Grp9)
-                            .addComponent(tglbutGm1Grp10))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(pnlGm1Layout.createSequentialGroup()
-                        .addGroup(pnlGm1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(tfGmb1Grp4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfGmb1Grp5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfGmb1Grp6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfGmb1Grp7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfGmb1Grp8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfGmb1Grp9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfGmb1Grp10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(tglbutGm1Grp10)))
+                    .addGroup(pnlGm1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(tfGmb1Grp4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(tfGmb1Grp5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(tfGmb1Grp6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(tfGmb1Grp7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(tfGmb1Grp8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(tfGmb1Grp9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(tfGmb1Grp10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         tglbutGm2Grp1.setText("Lose");
@@ -854,7 +852,7 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        tglbutGm1.setText("Game 1");
+        tglbutGm1.setText("Kahoot!");
         tglbutGm1.setFocusable(false);
         tglbutGm1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -862,7 +860,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        tglbutGm2.setText("Game 2");
+        tglbutGm2.setText("Slitherlink");
         tglbutGm2.setFocusable(false);
         tglbutGm2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -870,7 +868,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        tglbutGm3.setText("Game 3");
+        tglbutGm3.setText("我是大富翁");
         tglbutGm3.setFocusable(false);
         tglbutGm3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -878,7 +876,7 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        tglbutGm4.setText("Game 4");
+        tglbutGm4.setText("数字金字塔");
         tglbutGm4.setFocusable(false);
         tglbutGm4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1182,8 +1180,6 @@ public class GUI extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(GUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 

@@ -74,25 +74,25 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="lbGrp1" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp2" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp3" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp4" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp5" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp6" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp7" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp8" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp9" min="-2" pref="54" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Component id="lbGrp10" min="-2" pref="54" max="-2" attributes="0"/>
+                  <Component id="lbGrp1" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp2" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp3" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp4" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp5" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp6" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp7" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp8" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp9" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lbGrp10" min="-2" pref="60" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -122,70 +122,70 @@
         <Component class="javax.swing.JLabel" name="lbGrp1">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 1"/>
+            <Property name="text" type="java.lang.String" value="&#x6c34;&#x661f;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp2">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 2"/>
+            <Property name="text" type="java.lang.String" value="&#x91d1;&#x661f;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp3">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 3"/>
+            <Property name="text" type="java.lang.String" value="&#x5730;&#x7403;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp4">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 4"/>
+            <Property name="text" type="java.lang.String" value="&#x706b;&#x661f;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp5">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 5"/>
+            <Property name="text" type="java.lang.String" value="&#x6728;&#x661f;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp6">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 6"/>
+            <Property name="text" type="java.lang.String" value="&#x571f;&#x661f;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp7">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 7"/>
+            <Property name="text" type="java.lang.String" value="&#x5929;&#x738b;&#x661f;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp8">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 8"/>
+            <Property name="text" type="java.lang.String" value="&#x6d77;&#x738b;&#x661f;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp9">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 9"/>
+            <Property name="text" type="java.lang.String" value="&#x592a;&#x9633;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbGrp10">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Group 10"/>
+            <Property name="text" type="java.lang.String" value="&#x6708;&#x7403;"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
@@ -304,21 +304,18 @@
                               <Component id="tglbutGm1Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="tglbutGm1Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tfGmb1Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tfGmb1Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tfGmb1Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tfGmb1Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tfGmb1Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tfGmb1Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tfGmb1Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tfGmb1Grp4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfGmb1Grp5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfGmb1Grp6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfGmb1Grp7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfGmb1Grp8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfGmb1Grp9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfGmb1Grp10" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -1122,7 +1119,7 @@
       <SubComponents>
         <Component class="javax.swing.JToggleButton" name="tglbutGm1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Game 1"/>
+            <Property name="text" type="java.lang.String" value="Kahoot!"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Events>
@@ -1131,7 +1128,7 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="tglbutGm2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Game 2"/>
+            <Property name="text" type="java.lang.String" value="Slitherlink"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Events>
@@ -1140,7 +1137,7 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="tglbutGm3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Game 3"/>
+            <Property name="text" type="java.lang.String" value="&#x6211;&#x662f;&#x5927;&#x5bcc;&#x7fc1;"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Events>
@@ -1149,7 +1146,7 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="tglbutGm4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Game 4"/>
+            <Property name="text" type="java.lang.String" value="&#x6570;&#x5b57;&#x91d1;&#x5b57;&#x5854;"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Events>
